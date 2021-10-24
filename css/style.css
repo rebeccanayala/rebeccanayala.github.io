@@ -3,7 +3,7 @@
 :root {
     --dark-one: #333;
     --dark-two: #7a7a7a;
-    --main-color: #784cfb;
+    --main-color: red;
     --light-one: #fff;
     --light-two: #f9fafb;
     /* --light-three: #f6f7fb; */
@@ -92,7 +92,7 @@ color: var(--main-color);
 
 .links a.active:hover {
 color: var(--light-one);
-background-color: #6b44e0;
+background-color: #860909;
 }
 
 .header-content .container.grid-2 {
