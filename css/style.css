@@ -255,7 +255,7 @@ color: var(--main-color);
     bottom: 0;
     left: 0;
     background-color: var(--main-color);
-    transition: 0.3s;
+    transition: -0.3s;
 }
   
 .card-wrap:hover .card {
