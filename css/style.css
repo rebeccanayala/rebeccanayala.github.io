@@ -247,7 +247,7 @@ color: var(--main-color);
     position: absolute;
   }
   
-  .card:after {
+.card:after {
     content: "";
     position: absolute;
     width: 100%;
@@ -256,15 +256,15 @@ color: var(--main-color);
     left: 0;
     background-color: var(--main-color);
     transition: 0.3s;
-  }
+}
   
-  .card-wrap:hover .card {
+.card-wrap:hover .card {
     transform: translateY(-15px);
-  }
+}
   
-  .card-wrap:hover .card:after {
-    height: 8px;
-  }
+.card-wrap:hover .card:after {
+    height: 6px;
+}
 
 .fas {
 margin-bottom: 1.7rem;
