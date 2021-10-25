@@ -238,7 +238,8 @@ color: var(--main-color);
     text-align: center;
     padding: 3rem 2rem;
     overflow: hidden;
-
+    border:solid 0px;
+    border-radius: 20px;
 }
 
 .fas {
@@ -248,8 +249,8 @@ margin-bottom: 1.7rem;
 .card .title-sm {
     line-height: 0.8rem;
 }
-.card .text {
-    font-size: 1.15rem;
+.card .card-content .text {
+    font-size: 2rem;
     margin: 1.8rem 0;
 }
 /* end technologies */
