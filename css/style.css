@@ -6,7 +6,7 @@
     --main-color: red;
     --light-one: #fff;
     --light-two: #f9fafb;
-    /* --light-three: #f6f7fb; */
+    --light-three: #fff5f5;
 }
 
 /* general style */
@@ -76,6 +76,49 @@ img {
 
 .section {
     padding: 7rem 0;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.title {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1rem;
+    line-height: 1;
+    font-size: 2.8rem;
+    margin-bottom: 0.6rem;
+}
+
+.title::before {
+    content: attr(data-title);
+    display: block;
+    margin-bottom: 0.4rem;
+    color: var(--main-color);
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: var(--main-color);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title-sm {
+    color: var(--dark-one);
+    font-weight: 600;
+    font-size: 1.4rem;
 }
 
 /* end general style */
@@ -172,25 +215,43 @@ color: var(--main-color);
 }
 /* end header */
 /* technologies */
-.section-header {
+
+.cards {
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ width: 100%;
+}
+
+.card-wrap {
+    margin: 1.7rem 0.8rem;
+}
+
+.card {
+    width: 100%;
+    max-width: 390px;
+    min-height: 320px;
+    background-color: var(--light-three);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    margin-bottom: 1.5rem;
+    padding: 3rem 2rem;
+    overflow: hidden;
+
 }
 
-.title {
-    display: inline-block;
-    padding-bottom: 1rem;
-    line-height: 1;
-    font-size: 2.8rem;
+.fas {
+margin-bottom: 1.7rem;
 }
 
-.title::before{
-    content: attr(data-title);
-    display: block;
-    margin-bottom: 0.4rem;
-    color: var(--main-color);
+.card .title-sm {
+    line-height: 0.8rem;
 }
-
+.card .text {
+    font-size: 1.15rem;
+    margin: 1.8rem 0;
+}
 /* end technologies */
 
 
