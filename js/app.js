@@ -1,3 +1,5 @@
+const fiter_btns = 
+
 $(".grid").isotope({
     itemSelector: ".grid-item",
     layoutMode: "fitRows",
