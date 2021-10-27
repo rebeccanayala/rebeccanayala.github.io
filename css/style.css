@@ -282,7 +282,6 @@ margin-bottom: 1.7rem;
     position: relative;
     width: 100%;
     background-color: var(--light-two);
-    min-height: 1200px;
 }
 
 .background-bg {
@@ -434,6 +433,11 @@ margin-bottom: 1.7rem;
 
 .gallery-image:hover img {
     transform: translate(-50%, -50%) scale(1.1); 
+}
+
+.more-folio {
+    display: flex;
+    justify-content: center;
 }
 /* end portfolio */
 
