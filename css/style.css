@@ -440,6 +440,11 @@ margin-bottom: 1.7rem;
     justify-content: center;
 }
 /* end portfolio */
+/* about */
+.about {
+    overflow: hidden;
+}
+/* end about */
 
 
 
