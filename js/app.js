@@ -1,4 +1,5 @@
-const fiter_btns = 
+const filter_btns = document.querySelectorAll(".filter-btn");
+
 
 $(".grid").isotope({
     itemSelector: ".grid-item",
