@@ -444,7 +444,30 @@ margin-bottom: 1.7rem;
 .about {
     overflow: hidden;
 }
+
+.about .text {
+    margin-top: 1rem;
+    text-align: justify;
+}
 /* end about */
+/* contact */
+.contact {
+    width: 100%;
+    padding: 13.5rem 0 8.5rem 0;
+    background-color: var(--main-color);
+}
+
+.contact-box {
+    width: 100%;
+    background-color: var(--light-one);
+    border-radius: 45px;
+    padding: 10rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* end contact */
 
 
 
