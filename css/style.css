@@ -461,22 +461,17 @@ margin-bottom: 1.7rem;
     width: 100%;
     background-color: var(--light-one);
     border-radius: 45px;
-    padding: 5rem;
-}
-
-.contact-form .title::after {
-    display: none;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-form .title {
     margin: 0;
-}
-
-.contact-form .row {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(130px, 1fr));
-    grid-column-gap: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-input {
