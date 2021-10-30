@@ -1,4 +1,3 @@
-# rebeccanayala.github.io
 
 <div align=center> 
  
